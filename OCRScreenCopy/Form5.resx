@@ -117,28 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Welcome to ITT!
-ITT or Image to Text 
-will help you convert your 
-images with text on it 
-into text characters that can 
-be copied and saved into 
-a .txt file. You can 
-use the Screen Capture feature 
-so you can get real 
-time image from your computer 
-screen. You can also load 
-pre existing images in your 
-computer to be processed by 
-the ITT. Please be informed 
-that using images with larger 
-and more legible text will 
-produce more accurate results. ITT 
-has an 80 – 90 accuracy 
-rate of converting texts on 
-images into text characters. Thank 
-you for using this software.
-</value>
-  </data>
 </root>

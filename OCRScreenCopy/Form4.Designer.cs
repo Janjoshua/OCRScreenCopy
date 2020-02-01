@@ -55,7 +55,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Orange;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(102, 167);
+            this.button2.Location = new System.Drawing.Point(183, 154);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 25);
             this.button2.TabIndex = 1;
@@ -70,12 +70,13 @@
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Orange;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(264, 167);
+            this.button3.Location = new System.Drawing.Point(194, 223);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 25);
             this.button3.TabIndex = 2;
             this.button3.Text = "Image";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -84,7 +85,7 @@
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(204, 262);
+            this.button4.Location = new System.Drawing.Point(206, 290);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
@@ -96,6 +97,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Violet;
             this.ClientSize = new System.Drawing.Size(500, 500);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -103,6 +105,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form4";
             this.ResumeLayout(false);
 

@@ -13,6 +13,8 @@ namespace OCRScreenCopy
 {
     public partial class Form4 : Form
     {
+        Bitmap b;
+        Image i;
         public Form4()
         {
             InitializeComponent();
@@ -47,6 +49,20 @@ namespace OCRScreenCopy
             this.Hide();
             Form1 f1 = new Form1();
             f1.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            DialogResult re = ofd.ShowDialog();
+            if (re == DialogResult.OK)
+            {
+                i = Image.FromFile(ofd.FileName);
+                b = (Bitmap)i;
+                Form5 fm5 = new Form5(i);
+                fm5.Show();
+                this.Hide();
+            }
         }
     }
 }
